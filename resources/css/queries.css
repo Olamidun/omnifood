@@ -110,8 +110,10 @@ h1{
 }
 
 
-.customer-testimonials{height: 100vh;}
-.test-2{ font-size: 80%;
+.customer-testimonials{padding-top: -10%;
+	height: 100vh;}
+.test-2{ padding-top: -45px;
+	font-size: 75%;
 }
 blockquote{
 	margin-top: -15px;
@@ -166,6 +168,8 @@ margin-left: 50px;}
 /* Small phone from 0 to 480px */
 @media only screen and (max-width: 480px) {
 
+	h1{font-size: 100%}
+
 	.col{ width: 100%;
 	  margin: 0 0 4% 0;	
 }
@@ -188,6 +192,15 @@ margin-left: 50px;}
 
 .mobile-nav-icon{
 	display: inline-block;
+}
+
+.btn-full:link, 
+.btn-full:visited{
+	background-color: #e67e22;
+	border: 1px solid #e67e22;
+	color: #fff;
+	margin-bottom: 15px;
+
 }
 }
 
