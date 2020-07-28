@@ -91,7 +91,9 @@ h1{
 .main-nav{ 
 	display: none;
 	float:left;
-	margin: 25px 20% 0 20%;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 .main-nav li{
 	display: block;
@@ -176,7 +178,9 @@ margin-left: 50px;}
 .main-nav{ 
 	display: none;
 	float:left;
-	margin: 25px 25% 0 25%;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 .main-nav li{
 	display: block;
@@ -185,7 +189,7 @@ margin-left: 50px;}
 .main-nav li a:visited{
 	display:block;
 	border: 0;
-	margin: 10px 0;
+	margin: 5px 0;
 	font-size: 100%;
 }
 
@@ -193,6 +197,7 @@ margin-left: 50px;}
 .mobile-nav-icon{
 	display: inline-block;
 }
+
 
 .btn-full:link, 
 .btn-full:visited{
